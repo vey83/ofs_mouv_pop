@@ -1,4 +1,4 @@
-mariages_raw <- read_excel("mouvement_naturel_pop/2023/resources/mariages.xlsx",
+mariages_raw <- read_excel("resources/mariages.xlsx",
                            skip = 1) %>%
   clean_names() %>%
   slice(1:27) %>%
